@@ -3,6 +3,7 @@
     "noEmit": true,
     "strict": true,
     "target": "es6",
+    "jsx": "react-jsx",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "baseUrl": "./",
