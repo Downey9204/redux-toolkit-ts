@@ -17,6 +17,7 @@ module.exports = (env) => {
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx'],
       alias: {
+        '@store': path.join(__dirname, 'src', 'store'),
         '@src': path.join(__dirname, 'src'),
       },
     },

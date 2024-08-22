@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
+      "@store/*": ["src/store/*"],
       "@src/*": ["src/*"]
     }
   },
