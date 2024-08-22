@@ -6,7 +6,7 @@ module.exports = (env) => {
 
   return {
     mode: isDevMode ? 'development' : 'production',
-    devtool: isDevMode ? 'inline-soure-map' : false,
+    devtool: isDevMode ? 'inline-source-map' : false,
     entry: { main: './src/index.tsx' },
     output: {
       publicPath: '/',
