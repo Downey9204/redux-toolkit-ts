@@ -17,6 +17,7 @@ module.exports = (env) => {
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx'],
       alias: {
+        '@hooks': path.join(__dirname, 'src', 'hooks'),
         '@store': path.join(__dirname, 'src', 'store'),
         '@src': path.join(__dirname, 'src'),
       },
